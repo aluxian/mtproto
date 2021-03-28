@@ -85,7 +85,7 @@ func TryExpandError(errStr string) (nativeErrorName string, additionalData any) 
 	case reflect.Int:
 		var err error
 		additionalData, err = strconv.Atoi(trimmedData)
-		check(errors.Wrap(err, "error of parsing expected int value"))
+		println(errors.Wrap(err, "error of parsing expected int value"))
 
 	case reflect.String:
 		additionalData = trimmedData
