@@ -1,4 +1,4 @@
-module github.com/xelaj/mtproto/internal/cmd/tlgen
+module github.com/aluxian/mtproto/internal/cmd/tlgen
 
 go 1.15
 

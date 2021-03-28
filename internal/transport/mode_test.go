@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
+	"github.com/aluxian/mtproto/internal/transport"
 	"github.com/stretchr/testify/require"
-	"github.com/xelaj/mtproto/internal/transport"
 )
 
 func TestMode(t *testing.T) {
